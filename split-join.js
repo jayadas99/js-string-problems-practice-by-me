@@ -1,0 +1,53 @@
+const lyrics = 'Tumi bondhu kala pakhi ami jeno ki. bosonto kale tomai bolte pari ni. kala kala sada sada';
+
+console.log(lyrics);
+
+const parts = lyrics.split(" ");
+// console.log(parts);
+
+const sentences = lyrics.split(".");
+// console.log(sentences);
+
+const chars = lyrics.split("");
+// console.log(chars);
+
+
+const partial = lyrics.slice(5, 8);
+console.log(partial);
+const partial2 = lyrics.substring(5, 8);
+console.log(partial2);
+
+
+// const lines = [
+//     'Tumi bondhu kala pakhi ami jeno ki',
+//     'bosonto kale tomai bolte pari ni',
+//     'kala kala sada sada'
+    
+//   ]
+
+
+// const lines = [
+//     'Tumi bondhu kala pakhi ami jeno ki',
+//     'bosonto kale tomai bolte pari ni',
+//     'kala kala sada sada',
+//     'rong jomeche sada kala'
+//   ]
+
+
+const lines = [
+    'Tumi bondhu kala pakhi ami jeno ki',
+    'Bosonto kale tomai bolte pari ni',
+    'Kala kala sada sada',
+    'Rong jomeche sada kala'
+  ]
+
+
+//   const newSong = lines.join(":");
+//   console.log(newSong);
+
+//   const newSong = lines.join(".");
+//   console.log(newSong);
+
+
+  const newSong = lines.join(". ");
+  console.log(newSong);
